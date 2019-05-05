@@ -48,6 +48,7 @@ def run()
   help
   puts "Please enter a command:"
   run_response = gets.chomp
+  case run_response
   
 end
 
