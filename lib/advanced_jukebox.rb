@@ -30,7 +30,6 @@ def list(my_songs)
     puts val
   end
 end
-list(my_songs)
 
 def play(my_songs)
   #this method is slightly different!
