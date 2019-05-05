@@ -50,7 +50,10 @@ def run()
   run_response = gets.chomp
   case run_response
   when "help"
-    
+    help
+  when "list"
+    list(songs)
+  when
   end
 end
 
