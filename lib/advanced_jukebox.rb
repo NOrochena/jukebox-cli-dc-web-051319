@@ -30,7 +30,7 @@ def list(my_songs)
     puts value
   end
 end
-
+list(my_songs)
 
 def play(my_songs)
   #this method is slightly different!
