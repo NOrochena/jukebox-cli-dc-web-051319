@@ -28,6 +28,12 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   songs.each_with_index do |val, index|
-    
+    if user_response == index + 1 || user_response == val
+      puts "Playing #{val}"
+    else
+      puts "Invalid input, please try again"
+    end
   end
 end
+
+play(songs)
