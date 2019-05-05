@@ -44,7 +44,7 @@ def play(my_songs)
   
   my_songs.keys.each do |val|
     if val == song_response
-      
+      File.open
     end
   end
 end
