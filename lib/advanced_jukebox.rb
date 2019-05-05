@@ -39,7 +39,14 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
+  puts "Enter a song name"
+  song_response = gets.chomp
   
+  my_songs.keys.each do |val|
+    if val == song_response
+      
+    end
+  end
 end
 
 def exit_jukebox
