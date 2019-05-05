@@ -44,7 +44,7 @@ def play(my_songs)
   
   my_songs.keys.each do |val|
     if val == song_response
-      File.open
+      File.open(../audio/Emerald-Park/01.mp3)
     end
   end
 end
