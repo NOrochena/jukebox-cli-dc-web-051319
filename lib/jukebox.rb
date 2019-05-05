@@ -30,7 +30,7 @@ def play(songs)
   response_status = false
   
   songs.each_with_index do |val, index|
-    if user_response.to_i == (index + 1)
+    if user_response.to_i == (index + 1) || user_response == val
       puts "Playing #{val}"
       response_status = true
     end
